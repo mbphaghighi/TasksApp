@@ -1,6 +1,6 @@
 # Laravel/Vue.js CRUD example
 
-Develop a simple Tasks CRUD operations with Laravel/Vue.js. It uses Laravel, Vue.js and jQuery. 
+Develop a simple CRUD operations for tasks's table with Laravel/Vue.js. It uses Laravel, Vue.js and jQuery. 
 
 ## Getting Started
 
@@ -45,9 +45,9 @@ And finally, start the application:
 php artisan serve
 ```
 
-You can see all tasks in a table and also you can add/edit/delete task using Vue.js API. 
-
 and visit [http://localhost:8000/](http://localhost:8000/) to see the application in action.
+
+You can see all tasks in a table and also you can add/edit/delete a task using Vue.js API. 
 
 ## Built With
 
