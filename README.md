@@ -1,6 +1,6 @@
 # Laravel/Vue.js CRUD example
 
-Develop a simple Tasks CRUD operations with Laravel/Vue.js. It uses Laravel, Vue.js and JQuery. 
+Develop a simple Tasks CRUD operations with Laravel/Vue.js. It uses Laravel, Vue.js and jQuery. 
 
 ## Getting Started
 
@@ -24,16 +24,17 @@ composer install
 
 Duplicate `.env.example` and rename it `.env`.
 Then update the database properties with your database config.
-After that, seed the test data with (it uses factory and seeder to input the table's entries with the fake data):
-
-```bash
-php artisan db:seed
-```
 
 Then run:
 
 ```bash
 php artisan key:generate
+```
+
+After that, migrate and seed with the test data (it uses factory and seeder to input the table's entries with the fake data):
+
+```bash
+php artisan migrate:refresh --seed
 ```
 
 ## Using the Web App
@@ -43,6 +44,8 @@ And finally, start the application:
 ```bash
 php artisan serve
 ```
+
+You can see all tasks in a table and also you can add/edit/delete task using Vue.js API. 
 
 and visit [http://localhost:8000/](http://localhost:8000/) to see the application in action.
 
