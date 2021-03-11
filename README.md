@@ -1,4 +1,4 @@
-# Laravel-Booking_app
+# Laravel/Vue.js CRUD example
 
 Develop a simple Tasks CRUD operations with Laravel/Vue.js. It uses Laravel, Vue.js and JQuery. 
 
